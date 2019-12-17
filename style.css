@@ -8,3 +8,15 @@ body {
   /* https://css-tricks.com/couple-takes-sticky-footer/ */
   height: 100%;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}

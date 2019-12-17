@@ -18,9 +18,9 @@
     <title>BVS Pharmacy</title>
   </head>
   <body>
-    <!-- <div id="splash">
+    <div id="splash">
       <img class="logo" src="https://i.ibb.co/G5jyXN9/logo.png" alt="" />
-    </div> -->
+    </div>
     <div class="content">
       <header class="app-header">
         <div class="container">
@@ -68,22 +68,27 @@
           <img src="https://i.ibb.co/nDryZ8R/newspaper.png" alt="" />
         </div>
       </div>
-      <footer class="app-footer">
-        <ul>
-          <li>
-            <i class="fa fa-heart">Home</i>
-          </li>
-          <li>
-            <i class="fa fa-barcode">Show Card</i>
-          </li>
-          <li>
-            <i class="fa fa-user">Account</i>
-          </li>
-          <li>
-            <i class="fa fa-map-maker">Find Store</i>
-          </li>
-        </ul>
-      </footer>
     </div>
+    <footer class="app-footer">
+      <ul>
+        <li>
+          <i class="fa fa-heart">Home</i>
+        </li>
+        <li>
+          <i class="fa fa-barcode">Show Card</i>
+        </li>
+        <li>
+          <i class="fa fa-user">Account</i>
+        </li>
+        <li>
+          <i class="fa fa-map-maker">Find Store</i>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      setTimeout(() => {
+        document.getElementById("splash").classList.toggle("fade");
+      }, 2000);
+    </script>
   </body>
 </html>
